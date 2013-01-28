@@ -1095,7 +1095,7 @@ static FBSession *g_activeSession = nil;
                                                        // no token in this case implies that the user cancelled the permissions upgrade
                                                        NSError *error = [FBSession errorLoginFailedWithReason:FBErrorReauthorizeFailedReasonUserCancelled
                                                                                                     errorCode:nil
-                                                                                                   innerError:nil];
+                                                                                                   innerError:error];
                                                        // complete the operation: failed
                                                        [self callReauthorizeHandlerAndClearState:error];
                                                        

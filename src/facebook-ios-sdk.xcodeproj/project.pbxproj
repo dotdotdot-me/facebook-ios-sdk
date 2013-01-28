@@ -14,7 +14,7 @@
 		840F658C159B3A47005D41AA /* FBLoginView.h in Resources */ = {isa = PBXBuildFile; fileRef = 840F658B159B3A47005D41AA /* FBLoginView.h */; };
 		840F658F159B3A64005D41AA /* FBLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F658E159B3A64005D41AA /* FBLoginView.m */; };
 		840F6595159B441D005D41AA /* FBLoginView.h in Headers */ = {isa = PBXBuildFile; fileRef = 840F658B159B3A47005D41AA /* FBLoginView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		840FDCBD152B5D9200F9C927 /* FBFrictionlessRequestSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 840FDCBB152B5D9200F9C927 /* FBFrictionlessRequestSettings.h */; };
+		840FDCBD152B5D9200F9C927 /* FBFrictionlessRequestSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 840FDCBB152B5D9200F9C927 /* FBFrictionlessRequestSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		840FDCBE152B5D9200F9C927 /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FDCBC152B5D9200F9C927 /* FBFrictionlessRequestSettings.m */; };
 		841062451582501900FC561C /* FBFriendPickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6531581A15E00A2FA5E /* FBFriendPickerCacheDescriptor.m */; };
 		841062471582502B00FC561C /* FBPlacePickerCacheDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D0A6551581A1A600A2FA5E /* FBPlacePickerCacheDescriptor.m */; };
@@ -31,7 +31,7 @@
 		845857A216096ED000CC89E5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845857A116096ED000CC89E5 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8460F3E015595BE800038963 /* FBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CB41F1553ACC600C183CF /* FBLogger.m */; };
 		849CB18C1523416B00112220 /* FBLoginDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B0611D5293B000A4545 /* FBLoginDialog.h */; settings = {ATTRIBUTES = (); }; };
-		849CB18D1523416B00112220 /* FBDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B0811D5293B000A4545 /* FBDialog.h */; settings = {ATTRIBUTES = (); }; };
+		849CB18D1523416B00112220 /* FBDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B0811D5293B000A4545 /* FBDialog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84AB66281510F21200D9EE5F /* (null) in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
 		84AE5DA3152EA02500C4DE54 /* FBGraphObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AE5DA1152EA02500C4DE54 /* FBGraphObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84AE5DA4152EA02500C4DE54 /* FBGraphObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AE5DA2152EA02500C4DE54 /* FBGraphObject.m */; };
@@ -55,7 +55,7 @@
 		84E0C9F91535ED5A00778DA4 /* FBGraphUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E0C9F81535ED5A00778DA4 /* FBGraphUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E0CA04153618E500778DA4 /* FacebookSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E0CA03153618E500778DA4 /* FacebookSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E0CA061536198400778DA4 /* FBConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E0CA051536198400778DA4 /* FBConnect.h */; };
-		84E0CA0A153619D500778DA4 /* Facebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E0CA07153619D400778DA4 /* Facebook.h */; };
+		84E0CA0A153619D500778DA4 /* Facebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E0CA07153619D400778DA4 /* Facebook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E0CA0B153619D500778DA4 /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0CA08153619D400778DA4 /* Facebook.m */; };
 		84E0CA0C153619D500778DA4 /* FBDataDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E0CA09153619D500778DA4 /* FBDataDiskCache.h */; };
 		84E2DA28153492DE007F886C /* FBGraphPlace.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E2DA27153492DE007F886C /* FBGraphPlace.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -114,9 +114,9 @@
 		AEA93B1211D5293B000A4545 /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B0911D5293B000A4545 /* FBDialog.m */; };
 		AEA93B2611D52959000A4545 /* FBSBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1911D52959000A4545 /* FBSBJSON.h */; settings = {ATTRIBUTES = (); }; };
 		AEA93B2711D52959000A4545 /* FBSBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1A11D52959000A4545 /* FBSBJSON.m */; };
-		AEA93B2811D52959000A4545 /* FBSBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1B11D52959000A4545 /* FBSBJsonBase.h */; settings = {ATTRIBUTES = (); }; };
+		AEA93B2811D52959000A4545 /* FBSBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1B11D52959000A4545 /* FBSBJsonBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA93B2911D52959000A4545 /* FBSBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1C11D52959000A4545 /* FBSBJsonBase.m */; };
-		AEA93B2A11D52959000A4545 /* FBSBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1D11D52959000A4545 /* FBSBJsonParser.h */; settings = {ATTRIBUTES = (); }; };
+		AEA93B2A11D52959000A4545 /* FBSBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1D11D52959000A4545 /* FBSBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA93B2B11D52959000A4545 /* FBSBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B1E11D52959000A4545 /* FBSBJsonParser.m */; };
 		AEA93B2C11D52959000A4545 /* FBSBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA93B1F11D52959000A4545 /* FBSBJsonWriter.h */; settings = {ATTRIBUTES = (); }; };
 		AEA93B2D11D52959000A4545 /* FBSBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA93B2011D52959000A4545 /* FBSBJsonWriter.m */; };
