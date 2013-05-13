@@ -1093,11 +1093,11 @@ static FBSession *g_activeSession = nil;
                                                                                     permissions:[set allObjects]];
                                                    } else {
                                                        // no token in this case implies that the user cancelled the permissions upgrade
-                                                       NSError *error = [FBSession errorLoginFailedWithReason:FBErrorReauthorizeFailedReasonUserCancelled
+                                                       NSError *error2 = [FBSession errorLoginFailedWithReason:FBErrorReauthorizeFailedReasonUserCancelled
                                                                                                     errorCode:nil
                                                                                                    innerError:error];
                                                        // complete the operation: failed
-                                                       [self callReauthorizeHandlerAndClearState:error];
+                                                       [self callReauthorizeHandlerAndClearState:error2];
                                                        
                                                        // if we made it this far into the reauth case with an untosed device, then
                                                        // it is time to invalidate the session
